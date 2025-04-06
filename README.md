@@ -744,7 +744,6 @@ const emotionLexicon = {
   sadness: ["sad", "unhappy", "disappointed", "depressed", "gloomy"],
   anger: ["angry", "furious", "irritated", "annoyed", "enraged"],
   fear: ["afraid", "scared", "frightened", "terrified", "anxious"],
-  // More emotions...
 };
 ```
 
