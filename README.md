@@ -1,0 +1,2 @@
+# Spades
+Meeting AI companion
