@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Meeting Transcriber",
+    "version": "1.0",
+    "description": "Real-time meeting transcription with AI-powered insights",
+    "permissions": [
+      "tabCapture",
+      "activeTab",
+      "storage",
+      "tabs",
+      "scripting"
+    ],
+    "background": {
+      "service_worker": "background.js",
+      "type": "module"
+    },
+    "host_permissions": [
+      "*://*/*"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.png"
+    }
+  }
+  

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Meeting AI</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="initial-view" class="view">
+        <h3>Meeting AI</h3>
+        <p class="para">
+          Start recording your meeting to get real-time transcription and
+          AI-powered insights.
+        </p>
+        <button id="startButton" class="primary-button">Start Recording</button>
+      </div>
+
+      <div id="recording-view" class="view hidden">
+        <h3>Meeting AI</h3>
+        <div class="status-indicator">
+          <div class="recording-dot"></div>
+          <span>Recording in progress...</span>
+        </div>
+        <button id="dashboardButton" class="secondary-button">
+          Go to Dashboard
+        </button>
+        <button id="stopButton" class="danger-button">Stop Recording</button>
+      </div>
+
+      <div id="summary-view" class="view hidden">
+        <h3>Recording Complete</h3>
+        <button id="viewSummaryButton" class="primary-button">
+          View Summary
+        </button>
+        <button id="newRecordingButton" class="secondary-button">
+          New Recording
+        </button>
+      </div>
+    </div>
+    <script src="config.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>
